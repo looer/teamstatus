@@ -1,6 +1,6 @@
 <template>
   <svg :width="getWidth" :height="getHeight" viewBox="0 0 960 960" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g id="Livello3" transform="matrix(1,0,0,1,-160,0)">
+    <g id="Logo" transform="matrix(1,0,0,1,-160,0)">
         <g transform="matrix(1.33725,0,0,1.33725,-210.743,-145.699)">
             <g transform="matrix(1,0,0,1,-99.021,8.95101)">
                 <path d="M789.2,588.83C789.128,587.665 789.091,586.494 789.091,585.315L789.091,423.357C789.091,392.557 814.096,367.552 844.895,367.552L956.503,367.552C987.303,367.552 1012.31,392.557 1012.31,423.357L1012.31,585.315C1012.31,589.195 1011.91,592.984 1011.15,596.644C1009.68,657.307 960.504,706.097 900.14,706.097C838.85,706.097 789.091,655.799 789.091,593.846C789.091,592.167 789.127,590.497 789.2,588.83Z" style="fill:rgb(80,89,201);"/>
