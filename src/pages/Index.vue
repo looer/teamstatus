@@ -9,24 +9,49 @@
           </h2>
         </div>
         <h1 class="text-4xl text-center lg:text-5xl">
-          Look Available on Teams even when minding your own busines.
+          Look Available on Teams even when minding your own business.
         </h1>
         <p class="text-xl font-medium text-center">
           Don't want to work? Or you need to wash dishes? No problem! Just start the app and forget it.
           <br>
           <strong class="text-ui-primary">We got you covered!</strong>
         </p>
-
-        <!--div class="py-4">
+        
+        <!--div class="py-4"> CODE SNIPPET
           <code class="block px-4 py-1 select-all bg-ui-border text-ui-typo">Start Teams available</code>
         </div-->
+        
+        
+        <form class="flex justify-center mt-8"
+            method="POST"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+            netlify="true"
+            name="waiting-list"
+          >
+          <input type="hidden" name="form-name" value="waiting-list" />
+          <p hidden>
+              <label> Don’t fill this out: <input name="bot-field" /> </label>
+            </p>
+          <input type="email" id="email" required placeholder="your_email@example.com" class="appearance-none block w-full text-gray-700 border
+           border-indigo-600 rounded-lg py-4 px-6 leading-tight focus:outline-none focus:bg-white shadow-md">
+
+          <button type="submit" tabindex="0"
+            class="flex items-center px-6 py-4 ml-2 text-2xl font-bold leading-none text-white border rounded-lg shadow-md 
+            bg-ui-primary border-ui-primary transition-all duration-200 ease-out transform hover:shadow-xl hover:translate-x-1 focus:outline-none focus:border-transparent"
+          >
+            Download
+            <ArrowRightCircleIcon class="ml-4" size="1x" />
+          </button>
+        </form>
 
         <div class="flex justify-center mt-8">
+          
           <g-link
             to="/docs/"
-            class="flex items-center px-6 py-4 ml-auto text-2xl font-bold leading-none text-white border rounded-lg shadow-lg bg-ui-primary border-ui-primary transition-all duration-200 ease-out transform hover:shadow-xl hover:-translate-y-1"
+            class="flex items-center px-6 py-4 ml-auto text-l leading-none text-md font-medium text-center border rounded-lg bg-ui-sidebar hover:shadow-sm"
           >
-            Get started
+            See how it works
             <ArrowRightCircleIcon class="ml-4" size="1x" />
           </g-link>
         </div>
@@ -51,7 +76,7 @@
             Always Available
           </h3>
           <p class="text-lg text-left">
-            Powered by Gridsome. Built on Vue. Outputs static files. It wont't get any faster than this. <span class="border-b border-dashed border-ui-primary text-ui-primary">No seriously</span>.
+            Always look online on Microsoft Teams. Your boss will think you are working 9 to 5.<span class="border-b border-dashed border-ui-primary text-ui-primary">No seriously</span>.
           </p>
         </div>
 
@@ -142,7 +167,7 @@
           </form>
         </div>
         <div class="text-center">
-          <p class="mb-2">Or just email us on</p><a class="text-indigo-700 hover:underline" href="#">scranton@dundermifflin.com</a>
+          <p class="mb-2">Or just email us on</p><a class="text-indigo-700 hover:underline" href="#">info@teamstatus.com</a>
         </div>
       </section>
 
@@ -152,7 +177,7 @@
 
 <script>
 import Logo from '@/components/Logo';
-import { ArrowRightCircleIcon, ZapIcon, CodeIcon, MoonIcon, SearchIcon, UserCheckIcon, ClockIcon, PackageIcon} from 'vue-feather-icons';
+import { ArrowRightCircleIcon, ZapIcon, CodeIcon, MoonIcon, SearchIcon, UserCheckIcon, ClockIcon, PackageIcon, MailIcon} from 'vue-feather-icons';
 
 export default {
   components: {
@@ -164,12 +189,13 @@ export default {
     SearchIcon,
     UserCheckIcon,
     ClockIcon,
-    PackageIcon
+    PackageIcon,
+    MailIcon
   },
 
   metaInfo() {
-    const title = 'Great Documentation starts here';
-    const description = 'DOCC is a starter theme with instant search and dark mode for writing great technical documentation. Based on Gridsome!';
+    const title = 'Prevent the Away Status on Microsoft Teams';
+    const description = 'Always look Available on Microsoft Teams even when you are not working. Forget the Away Status on Microsoft Teams';
 
     return {
       title: title,
