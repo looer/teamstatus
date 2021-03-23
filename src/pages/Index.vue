@@ -28,12 +28,13 @@
             data-netlify-honeypot="bot-field"
             netlify="true"
             name="waiting-list"
+            action="success"
           >
           <input type="hidden" name="form-name" value="waiting-list" />
           <p hidden>
               <label> Don’t fill this out: <input name="bot-field" /> </label>
-            </p>
-          <input type="email" name="email" id="email" required placeholder="your_email@example.com" class="appearance-none block w-full text-gray-700 border
+          </p>
+          <input required type="email" name="email" placeholder="your_email@example.com" class="appearance-none block w-full text-gray-700 border
            border-indigo-600 rounded-lg py-4 px-6 leading-tight focus:outline-none focus:bg-white shadow-md">
 
           <button type="submit" tabindex="0"
