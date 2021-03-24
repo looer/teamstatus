@@ -1,9 +1,14 @@
 <template>
   <Layout>
     <div class="pt-8 md:pt-16">
-      <h1 class="text-center font-bold text-4xl text-ui-primary">Cool.</h1>
+      <h1 class="text-center font-bold text-4xl text-ui-primary">Thanks for you email</h1>
     </div>
-    <div class="mb-10 flex items-center justify-center">
+    <div class="flex-col text-center">
+      <p>At the moment the product is in development.</p>
+      <p>You will be notified once it's available!</p>
+      
+    </div>
+    <div class="mt-10 flex items-center justify-center">
       <g-link to="/" class="font-bold border-b border-ui-primary text-xl">Go back</g-link>.
     </div>
   </Layout>

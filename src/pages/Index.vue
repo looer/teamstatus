@@ -101,7 +101,8 @@
           </p>
         </div>
       </div>
-
+      
+      
       <div class="pt-8 mx-auto mt-8 border-t md:mt-16 md:pt-16 border-top border-ui-border max-w-screen-sm"></div>
       
       <section class="py-8 px-4">
@@ -150,26 +151,37 @@
       <section class="py-12 px-4">
         <h2 class="text-4xl mb-10 text-center font-semibold font-heading">Contact</h2>
         <div class="w-full max-w-2xl mx-auto mb-8">
-          <form>
+          <form class="flex justify-center mt-8"
+            method="POST"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+            netlify="true"
+            name="contact-form"
+            action="success"
+          >
+          <input type="hidden" name="form-name" value="contact-form" />
+          <p hidden>
+              <label> Don’t fill this out: <input name="bot-field" /> </label>
+          </p>
             <div class="flex mb-4 -mx-2">
               <div class="w-1/2 px-2">
-                <input class="appearance-none block w-full py-3 px-4 leading-tight text-gray-700 bg-gray-50 focus:bg-white border border-gray-200 focus:border-gray-500 rounded focus:outline-none" type="email" placeholder="Name">
+                <input name="Name" type="text" placeholder="Name" class="appearance-none block w-full py-3 px-4 leading-tight text-gray-700 bg-gray-50 focus:bg-white border border-gray-200 focus:border-gray-500 rounded focus:outline-none">
               </div>
               <div class="w-1/2 px-2">
-                <input class="appearance-none block w-full py-3 px-4 leading-tight text-gray-700 bg-gray-50 focus:bg-white border border-gray-200 focus:border-gray-500 rounded focus:outline-none" type="email" placeholder="Email">
+                <input name="Email" type="email" placeholder="Email" class="appearance-none block w-full py-3 px-4 leading-tight text-gray-700 bg-gray-50 focus:bg-white border border-gray-200 focus:border-gray-500 rounded focus:outline-none">
               </div>
             </div>
             <div class="mb-4">
-              <textarea class="appearance-none block w-full py-3 px-4 leading-tight text-gray-700 bg-gray-50 focus:bg-white border border-gray-200 focus:border-gray-500 rounded focus:outline-none" placeholder="Write something..." rows="5"></textarea>
+              <textarea name="Message" class="appearance-none block w-full py-3 px-4 leading-tight text-gray-700 bg-gray-50 focus:bg-white border border-gray-200 focus:border-gray-500 rounded focus:outline-none" placeholder="Write something..." rows="5"></textarea>
             </div>
             <div>
-              <button class="inline-block w-full py-4 px-8 leading-none text-white bg-indigo-700 hover:bg-indigo-700 font-semibold rounded shadow">Submit</button>
+              <button type="submit" class="inline-block w-full py-4 px-8 leading-none text-white bg-indigo-700 hover:bg-indigo-700 font-semibold rounded shadow">Submit</button>
             </div>
           </form>
         </div>
-        <div class="text-center">
+        <!--div class="text-center">
           <p class="mb-2">Or just email us on</p><a class="text-indigo-700 hover:underline" href="#">info@teamstatus.com</a>
-        </div>
+        </div-->
       </section>
 
     </div>
