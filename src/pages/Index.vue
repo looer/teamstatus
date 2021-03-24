@@ -151,7 +151,7 @@
       <section class="py-12 px-4">
         <h2 class="text-4xl mb-10 text-center font-semibold font-heading">Contact</h2>
         <div class="w-full max-w-2xl mx-auto mb-8">
-          <form class="flex justify-center mt-8"
+          <form
             method="POST"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
