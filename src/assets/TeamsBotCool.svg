@@ -1,5 +1,8 @@
-<template>
-  <svg :width="getWidth" :height="getHeight" viewBox="0 0 4000 4000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 4000 4000" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
+    style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
     <g id="Livello4">
         <rect x="465.709" y="94.296" width="3115.96" height="3800.04" style="fill:#5059c9;" />
         <path
@@ -54,27 +57,4 @@
             <stop offset="1" style="stop-color:#519a1e;stop-opacity:1" />
         </linearGradient>
     </defs>
-  </svg>
-</template>
-
-<script>
-export default {
-  props: {
-    width: {
-      type: Number,
-      default: 40
-    }
-  },
-
-  computed: {
-    getWidth() {
-      return this.width;
-    },
-
-    getHeight() {
-      return Math.ceil((this.getWidth / 48) * 48);
-    }
-  }
-};
-</script>
-
+</svg>

@@ -5,14 +5,14 @@
         <div class="flex flex-col items-center mb-2 text-ui-primary">
           <Logo :width="200"/>
           <h2 class="text-3xl text-6xl font-black tracking-tighter border-none">
-            TEAMSTATUS
+            Available On Teams
           </h2>
         </div>
         <h1 class="text-4xl text-center lg:text-5xl">
-          Look Available on Teams even when minding your own business.
+          Look Available on Microsoft Teams when you are not at your PC.
         </h1>
         <p class="text-xl font-medium text-center">
-          Don't want to work? Or you need to wash dishes? No problem! Just start the app and forget it.
+          Normally the Don't want to work? Or you need to wash dishes? No problem! Just start the app and forget it.
           <br>
           <strong class="text-ui-primary">We got you covered!</strong>
         </p>
@@ -108,7 +108,7 @@
       <section class="py-8 px-4">
         <div class="flex flex-wrap -mx-8 text-center">
           <div class="w-full md:w-1/2 p-8 mb-4 md:mb-0">
-            <h3 class="text-5xl font-semibold font-heading">$9 / mo</h3>
+            <h3 class="text-5xl font-semibold font-heading">$19 for 1 year</h3>
             <h4 class="font-bold tracking-wide uppercase text-ui-primary">Beginner</h4>
             <p class="flex-grow mt-4 mb-6 text-gray-500 leading-relaxed">Just enough paper for small business. Not enough to waste it on fluffy animals photos. The best quality and economy comes with Dunder Mifflin paper.</p>
             <a class="inline-block py-4 px-8 leading-none text-indigo-600 bg-indigo-50 hover:bg-indigo-100 font-semibold rounded shadow" href="#">Contact sales</a>
