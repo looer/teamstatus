@@ -4,7 +4,7 @@
       <div class="flex flex-col items-center">
         <div class="flex flex-col items-center mb-2 text-ui-primary">
           <Logo :width="200"/>
-          <h2 class="text-3xl text-6xl font-black tracking-tighter border-none">
+          <h2 class="text-6xl font-black tracking-tighter border-none">
             Available On Teams
           </h2>
         </div>
@@ -12,7 +12,7 @@
           Look Available on Microsoft Teams when you are not at your PC.
         </h1>
         <p class="text-xl font-medium text-center">
-          Normally the Don't want to work? Or you need to wash dishes? No problem! Just start the app and forget it.
+          Don't want to work? Or you need to wash dishes? No problem! Just start the app and forget it.
           <br>
           <strong class="text-ui-primary">We got you covered!</strong>
         </p>
@@ -49,13 +49,15 @@
         <div class="flex justify-center mt-8">
           
           <g-link
-            to="/docs/"
+            to="/"
             class="flex items-center px-6 py-4 ml-auto text-l leading-none text-md font-medium text-center border rounded-lg bg-ui-sidebar hover:shadow-sm"
           >
             See how it works
             <ArrowRightCircleIcon class="ml-4" size="1x" />
           </g-link>
         </div>
+
+        <!--img src="../assets/TaskbarWithBot.jpg" alt="Available on Teams app icon working in taskbar"-->
 
         <p class="mt-8 text-center">
           Lightweight & <span class="border-b border-dashed border-ui-primary text-ui-primary">Discrete</span>.
@@ -77,7 +79,7 @@
             Always Available
           </h3>
           <p class="text-lg text-left">
-            Always look online on Microsoft Teams. Your boss will think you are working 9 to 5.<span class="border-b border-dashed border-ui-primary text-ui-primary">No seriously</span>.
+            Always look online on Microsoft Teams. Your boss will think you are working 9 to 5. <span class="border-b border-dashed border-ui-primary text-ui-primary">No seriously</span>.
           </p>
         </div>
 
@@ -87,7 +89,7 @@
             No Installation Needed
           </h3>
           <p class="text-lg text-left">
-            All headlines are indexed. Instant search powered by Fuse.js. Find what you are looking for in the <span class="border-b border-dashed border-ui-primary text-ui-primary">blink of an eye</span>.
+            It's so lightweight and simple that you don't need any installation. <span class="border-b border-dashed border-ui-primary text-ui-primary">Just start and stop when you want.</span>
           </p>
         </div>
 
@@ -97,15 +99,15 @@
             Set your working time
           </h3>
           <p class="text-lg text-left">
-            Working late at night again? Enable dark mode with the click of a button.
+            AvailableOnTeams App will automatically close after 5 PM, <span class="border-b border-dashed border-ui-primary text-ui-primary">so you don't have to be at your PC.</span> With the Pro version you can install your custom working hours. 
           </p>
         </div>
       </div>
       
       
-      <div class="pt-8 mx-auto mt-8 border-t md:mt-16 md:pt-16 border-top border-ui-border max-w-screen-sm"></div>
+      <!--div class="pt-8 mx-auto mt-8 border-t md:mt-16 md:pt-16 border-top border-ui-border max-w-screen-sm"></div>
       
-      <section class="py-8 px-4">
+      <section hidden class="py-8 px-4">
         <div class="flex flex-wrap -mx-8 text-center">
           <div class="w-full md:w-1/2 p-8 mb-4 md:mb-0">
             <h3 class="text-5xl font-semibold font-heading">$19 for 1 year</h3>
@@ -120,7 +122,7 @@
             <a class="inline-block py-4 px-8 leading-none text-white bg-indigo-600 hover:bg-indigo-700 font-semibold rounded shadow" href="#">Contact sales</a>
           </div>
         </div>
-      </section>
+      </section-->
       
       </div>
 
@@ -130,20 +132,16 @@
         <div class="max-w-3xl mx-auto">
           <h2 class="text-4xl text-center mb-6 font-semibold font-heading">Frequently Asked Questions</h2>
           <div class="p-4 mb-2 border-b">
-            <button class="flex w-full text-left mb-4"><span class="flex-grow font-semibold">How does Dunder Mifflin paper differ from other products?</span><svg class="text-indigo-700 w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg></button>
-            <p class="mt-1">Paper produced with love, devotion, passion - is not the same paper. Our supplies are extra strong, and you’re going to need the paper-tear up-master to destroy just one sheet. It’s also suited for every available printer.</p>
+            <button class="flex w-full text-left mb-4"><span class="flex-grow font-semibold">How does AvailableOnTeams work?</span><!--svg class="text-indigo-700 w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg--></button>
+            <p class="mt-1">The Microsoft Teams changes the user status from Available to Away after 10 minutes of inactivity. AvailableOnTeams app prevents this by simulating the user presence, sending inputs to the pc every few seconds.</p>
           </div>
           <div class="p-4 mb-2 border-b">
-            <button class="flex w-full text-left mb-4"><span class="flex-grow font-semibold">Why choose Dunder Mifflin instead of some huge paper producer?</span><svg class="text-indigo-700 w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></button>
-            <p class="hidden mt-1">You know that feeling when you are waiting on the phone for hours to contact your supplier? Sometimes they even have a waiting time music prepared for that. In Dunder Mifflin, you can get help immediately, and each of our customers receives an individual assistant. For us, companies are people - not numbers, so we take care of each of them.</p>
+            <button class="flex w-full text-left mb-4"><span class="flex-grow font-semibold">Why choose AvailableOnTeams app?</span><!--svg class="text-indigo-700 w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg--></button>
+            <p class="mt-1">AvailableOnTeams App is a very simple and lightweight program, doing only the essential to keep your presence status on Teams set as available. There is no installation needed so you can use it on your work PC, without Administrative right and without getting noticed by your.</p>
           </div>
           <div class="p-4 mb-2 border-b">
-            <button class="flex w-full text-left mb-4"><span class="flex-grow font-semibold">When I will receive the products?</span><svg class="text-indigo-700 w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></button>
-            <p class="hidden mt-1">If you buy one of our business plans, you will receive the supplies every first Monday of the month. However, you can also purchase paper separately. Our employees will make sure that you will receive the products in the next business days.</p>
-          </div>
-          <div class="p-4 mb-2 border-b">
-            <button class="flex w-full text-left mb-4"><span class="flex-grow font-semibold">How long does it take to finalize the deal?</span><svg class="text-indigo-700 w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></button>
-            <p class="hidden mt-1">The whole process depends on your decision. If you sign the contract immediately, we can start official cooperation in the next two business days.</p>
+            <button class="flex w-full text-left mb-4"><span class="flex-grow font-semibold">Do you offer a free demo?</span><!--svg class="text-indigo-700 w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg--></button>
+            <p class="mt-1">Yes, just drop your email in the form at the top and we will send you the Demo by email.</p>
           </div>
         </div>
       </section>
