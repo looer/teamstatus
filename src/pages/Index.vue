@@ -2,66 +2,96 @@
   <Layout>
     <div class="pt-8 md:pt-16">
       <div class="flex flex-col items-center">
-        <div class="flex flex-col items-center mb-2 text-ui-primary">
-          <Logo :width="200"/>
-          <h2 class="text-6xl font-black tracking-tighter border-none">
-            Available On Teams
-          </h2>
+        <div class="flex flex-row items-center mb-4">
+
+          <div class="flex flex-col items-center mb-2 text-ui-primary">
+            <Logo :width="200"/>
+            <h2 class="text-xl font-black tracking-tighter border-none">
+              Available On Teams
+            </h2>
+          </div>
+
+          <div class="flex flex-col items-center ml-5 ">
+            <h1 class="text-3xl text-center lg:text-5xl">
+              Look Available on Microsoft Teams when you are not at your PC.
+            </h1>
+            <p class="text-xl font-medium text-center">
+              Simulating your presence the entire working day, so you can take a break without stress. 
+              <br>
+              <strong class="text-ui-primary">Just start the app and forget it.</strong>
+            </p>
+            
+            <div>
+              <form  class="flex justify-center mt-2"
+                method="POST"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+                netlify="true"
+                name="waiting-list"
+                action="success"
+              >
+              <input type="hidden" name="form-name" value="waiting-list" />
+              <p hidden>
+                  <label> Don’t fill this out: <input name="bot-field" /> </label>
+              </p>
+              <input required type="email" name="email" placeholder="Email" class="appearance-none block w-full text-gray-700 border
+              border-indigo-600 rounded-lg py-4 px-6 leading-tight focus:outline-none focus:bg-white shadow-md">
+
+              <button type="submit" tabindex="0"
+                class="flex items-center px-6 py-4 ml-2 text-2xl font-bold leading-none text-white border rounded-lg shadow-md 
+                bg-ui-primary border-ui-primary transition-all duration-200 ease-out transform hover:shadow-xl hover:translate-x-1 focus:outline-none focus:border-transparent"
+              >
+                Download
+                <ArrowRightCircleIcon class="ml-4" size="1x" />
+              </button>
+            </form> 
+            <p class="mt-2 text-center">
+              Free trial
+            </p>
+            </div>
+
+          </div>
         </div>
-        <h1 class="text-4xl text-center lg:text-5xl">
-          Look Available on Microsoft Teams when you are not at your PC.
-        </h1>
-        <p class="text-xl font-medium text-center">
-          Don't want to work? Or you need to wash dishes? No problem! Just start the app and forget it.
-          <br>
-          <strong class="text-ui-primary">We got you covered!</strong>
-        </p>
         
         <!--div class="py-4"> CODE SNIPPET
           <code class="block px-4 py-1 select-all bg-ui-border text-ui-typo">Start Teams available</code>
         </div-->
-        
-        
-        <form class="flex justify-center mt-8"
-            method="POST"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-            netlify="true"
-            name="waiting-list"
-            action="success"
-          >
-          <input type="hidden" name="form-name" value="waiting-list" />
-          <p hidden>
-              <label> Don’t fill this out: <input name="bot-field" /> </label>
+        <div class="mt-20 text-center justify-center">
+          <h3>A simple app, that you can run in the background</h3>
+          <img class="rounded-lg" src="../assets/TaskbarAvailableOnTeams3.png" alt="Available on Teams app icon working in taskbar">
+        </div>
+
+        <div class="flex flex-col text-center justify-center mt-20 mx-20"> 
+          <h3>Made for anxious people, working from home</h3>
+          <p>
+            Working from home a lot of people started using Microsoft Teams, which is a great communication tool, but it means that <b>your boss can see <i>exactly</i> when you are at the PC</b> and when you are not.
           </p>
-          <input required type="email" name="email" placeholder="your_email@example.com" class="appearance-none block w-full text-gray-700 border
-           border-indigo-600 rounded-lg py-4 px-6 leading-tight focus:outline-none focus:bg-white shadow-md">
-
-          <button type="submit" tabindex="0"
-            class="flex items-center px-6 py-4 ml-2 text-2xl font-bold leading-none text-white border rounded-lg shadow-md 
-            bg-ui-primary border-ui-primary transition-all duration-200 ease-out transform hover:shadow-xl hover:translate-x-1 focus:outline-none focus:border-transparent"
-          >
-            Download
-            <ArrowRightCircleIcon class="ml-4" size="1x" />
-          </button>
-        </form>
-
-        <div class="flex justify-center mt-8">
-          
-          <g-link
+            <p>
+            This is not great for your privacy.
+            </p>
+            <p>
+              I made this app because I was getting pretty anxious that for every small break I was taking, everybody would think I was not working.
+            </p>
+            <p>
+            AvailableOnTeams solves that, as your status is set to Available even when you are not at the PC.</p>
+            </p>
+          <!--g-link
             to="/"
             class="flex items-center px-6 py-4 ml-auto text-l leading-none text-md font-medium text-center border rounded-lg bg-ui-sidebar hover:shadow-sm"
           >
-            See how it works
+            Read more
             <ArrowRightCircleIcon class="ml-4" size="1x" />
-          </g-link>
+          </g-link-->
+          <a 
+          href="https://gum.co/wWkny"
+          class="flex items-center px-6 py-4 ml-auto text-l leading-none text-md font-medium text-center border rounded-lg bg-ui-sidebar hover:shadow-sm"> 
+          Read more 
+            <ArrowRightCircleIcon class="ml-4" size="1x" />
+          </a>
         </div>
 
-        <!--img src="../assets/TaskbarWithBot.jpg" alt="Available on Teams app icon working in taskbar"-->
 
-        <p class="mt-8 text-center">
-          Lightweight & <span class="border-b border-dashed border-ui-primary text-ui-primary">Discrete</span>.
-        </p>
+       
 
       </div>
 
@@ -147,7 +177,7 @@
       </section>
 
       <section class="py-12 px-4">
-        <h2 class="text-4xl mb-10 text-center font-semibold font-heading">Contact</h2>
+        <h2 class="text-4xl mb-10 text-center font-semibold font-heading">Any other questions?</h2>
         <div class="w-full max-w-2xl mx-auto mb-8">
           <form
             method="POST"
@@ -187,8 +217,18 @@
 </template>
 
 <script>
-import Logo from '@/components/Logo';
-import { ArrowRightCircleIcon, ZapIcon, CodeIcon, MoonIcon, SearchIcon, UserCheckIcon, ClockIcon, PackageIcon, MailIcon} from 'vue-feather-icons';
+import Logo from "@/components/Logo";
+import {
+  ArrowRightCircleIcon,
+  ZapIcon,
+  CodeIcon,
+  MoonIcon,
+  SearchIcon,
+  UserCheckIcon,
+  ClockIcon,
+  PackageIcon,
+  MailIcon,
+} from "vue-feather-icons";
 
 export default {
   components: {
@@ -201,44 +241,45 @@ export default {
     UserCheckIcon,
     ClockIcon,
     PackageIcon,
-    MailIcon
+    MailIcon,
   },
 
   metaInfo() {
-    const title = 'Prevent the Away Status on Microsoft Teams';
-    const description = 'Always look Available on Microsoft Teams even when you are not working. Forget the Away Status on Microsoft Teams';
+    const title = "Prevent the Away Status on Microsoft Teams";
+    const description =
+      "Always look Available on Microsoft Teams even when you are not working. Forget the Away Status on Microsoft Teams";
 
     return {
       title: title,
       meta: [
         {
-          name: 'description',
-          content: description
-        },
-        {
-          key: 'og:title',
-          name: 'og:title',
-          content: title,
-        },
-        {
-          key: 'twitter:title',
-          name: 'twitter:title',
-          content: title,
-        },
-        {
-          key: 'og:description',
-          name: 'og:description',
+          name: "description",
           content: description,
         },
         {
-          key: 'twitter:description',
-          name: 'twitter:description',
+          key: "og:title",
+          name: "og:title",
+          content: title,
+        },
+        {
+          key: "twitter:title",
+          name: "twitter:title",
+          content: title,
+        },
+        {
+          key: "og:description",
+          name: "og:description",
           content: description,
         },
-      ]
-    }
-  }
-}
+        {
+          key: "twitter:description",
+          name: "twitter:description",
+          content: description,
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style>
