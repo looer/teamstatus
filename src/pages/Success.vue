@@ -5,9 +5,9 @@
     </div>
     <div class="flex-col text-center">
       <Logo :width="200"/>
-      <p>At the moment the product is in development.</p>
-      <p>You will be notified once it's available!</p>
-      <a href="https://gum.co/wWkny">Download from Gumroad</a>
+      <p>You can download the app from the link below.</p>
+      <p>I would like to have your feedback at info@availableonteams.com</p>
+      <a class="text-xl underline" href="https://gum.co/wWkny">Download from Gumroad</a>
     </div>
     <div class="mt-10 flex items-center justify-center">
       <g-link to="/" class="font-bold border-b border-ui-primary text-xl">Go back</g-link>.
