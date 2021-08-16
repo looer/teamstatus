@@ -7,7 +7,9 @@
       <Logo :width="200"/>
       <p>You can download the app from the link below.</p>
       <p>I would like to have your feedback at info@availableonteams.com</p>
-      <a class="text-xl underline" href="https://gum.co/wWkny">Download from Gumroad</a>
+      
+      <a class="text-xl underline" href="/AvailableOnTeamsDEMO.exe" download>Download DEMO</a>
+
     </div>
     <div class="mt-10 flex items-center justify-center">
       <g-link to="/" class="font-bold border-b border-ui-primary text-xl">Go back</g-link>.

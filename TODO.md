@@ -1,5 +1,9 @@
 TODO
 
-- rimouvere barra ricerca in alto
-- aggiungere una pagina per i prezzi (redirect a gumroad)
++ aggiungere redirect a gumroad
++ aggiungere un immagine
++ redesign della landing page
 - availbleonteams twitter account
+- aggiungere pagina about
+- aggiungere pagina contact
+- aggiungere pagina pricing
