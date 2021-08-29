@@ -80,6 +80,12 @@ import Sidebar from "@/components/Sidebar";
 import LayoutHeader from "@/components/LayoutHeader";
 import { MenuIcon, XIcon } from "vue-feather-icons";
 
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag("js", new Date());
+
 gtag("config", "AW-995543636");
 
 export default {
